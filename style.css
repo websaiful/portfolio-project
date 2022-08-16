@@ -50,6 +50,9 @@ section{
     margin-top: 1rem;
     font-size: 2rem;
     border-radius: 5rem;
+   
+    
+    
 }
 .btn i{
     padding: 0 .5rem;
@@ -327,7 +330,13 @@ header .navbar ul li a:hover{
     padding-right: 1rem;
     color: var(--yellow);
 }
-
+.top{
+    position: fixed;
+    bottom: 7.5rem;
+    right: 2rem;
+    z-index: 100;
+    display: none;
+}
 
 
 
